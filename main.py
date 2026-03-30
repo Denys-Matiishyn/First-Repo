@@ -5,8 +5,22 @@
 
 
 def print_hi(name):
-    pass
+
+    print(f'Hi, {name}!')
+
+
+def add(x, y):
+    print(x+y)
+def sub(x, y):
+    print(x-y)
 if __name__ == '__main__':
     print_hi('PyCharm')
+    print_hi('PyCharm')
+    print_hi('PyCharm')
+    add(1,23)
+    add(1,23)
+    add(1,23)
+    sub(1,23)
+    sub(1,23)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
